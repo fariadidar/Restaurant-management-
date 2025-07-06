@@ -1,13 +1,14 @@
 //import reactLogo from './assets/react.svg'
 import './App.css'
-import Header from './Components/Shared/Header'
+import Navbar from './Components/Shared/Navbar'
+import Home from './Pages/Home'
 
-function App() {
+const App = () => {
 
   return (
     <>
-      <Header />
-      <h1>Hello</h1>
+      <Navbar />
+      <Home />
     </>
   )
 }
