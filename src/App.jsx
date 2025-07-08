@@ -1,16 +1,21 @@
-//import reactLogo from './assets/react.svg'
-import './App.css'
-import Navbar from './Components/Shared/Navbar'
-import Home from './Pages/Home'
+import './App.css';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Home from './Pages/Home';
+import Login from './Pages/Login';
+import Signup from './Pages/Signup';
 
 const App = () => {
-
   return (
-    <>
-      <Navbar />
-      <Home />
-    </>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+    </Router>
+    
+  );
+};
 
-export default App
+export default App;
