@@ -1,14 +1,18 @@
 import React from 'react'
-import HeroBanner from '../Components/HeroBanner'
+import About from '../Components/About'
 import Reservation from '../Components/Reservation'
 import ProductCard from '../Components/ProductCard'
+import HeroBanner from '../Components/heroBanner'
+import Products from '../Components/products'
+
 
 const Home = () => {
   return (
     <div className='w-full'>
       <HeroBanner />
       <Reservation />
-      <ProductCard />
+      <Products />
+      <About/>
     </div>
   )
 }

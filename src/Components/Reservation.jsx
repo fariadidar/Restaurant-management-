@@ -2,7 +2,7 @@ import React from 'react'
 
 const Reservation = () => {
   return (
-    <section className="bg-[#0d1b1e] text-white min-h-screen flex flex-col items-center justify-center px-4 bg-cover bg-center bg-no-repeat">
+    <section id="reservation" className="bg-[#0d1b1e] text-white min-h-screen flex flex-col items-center justify-center px-4 bg-cover bg-center bg-no-repeat">
 
         <div className="text-center space-y-6">
             <h2 className="text-lg italic text-gray-400">Reservations</h2>

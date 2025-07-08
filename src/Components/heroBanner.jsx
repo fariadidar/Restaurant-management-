@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const HeroBanner = () => {
   return (
-    <section style={{backgroundImage: 'url(https://i.ibb.co/TxqjM8sG/a.jpg)'}} className="relative h-screen !w-full bg-cover bg-center flex justify-center bg-gray-500">
+    <section id="hero" style={{backgroundImage: 'url(https://i.ibb.co/0vWj5gp/background.jpg)'}} className="relative h-screen !w-full bg-cover bg-center flex justify-center bg-gray-500">
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center px-4 text-white">
             <p className="text-lg italic tracking-widest mb-2">welcome to our delicious corner</p>
             <h1 className="text-6xl sm:text-7xl font-fancy tracking-widest mb-6">THE BEST DISHES</h1>
